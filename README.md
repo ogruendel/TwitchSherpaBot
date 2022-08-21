@@ -18,7 +18,7 @@ A Twitch Bot that allows Twitch streamers to organize their helping queue, mainl
 3. Install **tmi.js** using `npm install tmi.js`
 4. Install **dotenv** using `npm install dotenv`
 5. Using a website like [twitchtokengenerator.com](https://twitchtokengenerator.com/) generate a Bot Chat Token for the account you want to function as the bot.
-6. Enter the appropriate information into the .env file
+6. Enter the appropriate information into the .env.example file and change the files name to just .env
 7. Run the bot using `node server.js`
 
 # License
