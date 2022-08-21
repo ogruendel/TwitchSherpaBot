@@ -1,0 +1,16 @@
+{
+  "name": "sherpatarkov",
+  "version": "0.0.1",
+  "description": "A Twitch bot to automate queueing people seeking help from streamers for the game Escape from Tarkov",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "tmi.js": "^1.8.5"
+  }
+}
