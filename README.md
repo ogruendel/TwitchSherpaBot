@@ -13,7 +13,7 @@ A Twitch Bot that allows Twitch streamers to organize their helping queue, mainl
 
 ## Using the Bot / Setting up Developing Environment
 
-1. Go to the [release page](https://github.com/ogruendel/TwitchSherpaBot/releases/tag/Release) of the bot or clone the repository.
+1. [Download](https://github.com/ogruendel/TwitchSherpaBot/archive/refs/heads/master.zip) the source code
 2. Install [Node.js](https://nodejs.org/en/)
 3. Install **tmi.js** using `npm install tmi.js`
 4. Install **dotenv** using `npm install dotenv`
