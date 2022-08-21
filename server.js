@@ -35,7 +35,7 @@ client.on('message', async (channel, context, message, self) => {
         }
     }
 
-    if (message.toLowerCase() === "!leaveq") {
+    if (message.toLowerCase() === "!leaveq" || message.toLowerCase() === "!lq") {
         if (leaveQueue(context.username) !== -1) {
             client.say(channel, `@${context.username} you have successfully been removed from the queue.`)
         } else {
@@ -43,7 +43,7 @@ client.on('message', async (channel, context, message, self) => {
         }
     }
 
-    if (message.toLowerCase() === "!q") {
+    if (message.toLowerCase() === "!queue" || message.toLowerCase() === "!q") {
         if (getQueue(context.username) === -1) {
             client.say(channel, `@${context.username} you are not currently in the queue. Type !joinq to join.`)
         } else {
@@ -61,11 +61,6 @@ client.on('message', async (channel, context, message, self) => {
                 client.say(channel, `@${context.username} nobody is currently in the queue.`)
             }
         }
-    }
-
-    if (message.toLowerCase().includes("!debug")) {
-        console.log(twitchQueue)
-        console.log(usernameQueue)
     }
 })
 
